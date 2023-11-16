@@ -1,0 +1,28 @@
+{
+  "name": "@billyjacoby/trpc-example-package",
+  "version": "0.0.13",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billyjacoby/backend-trpc-api-boilerplate.git"
+  },
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
+  "keywords": [],
+  "author": "Billy Jacoby",
+  "license": "ISC",
+  "dependencies": {
+    "@trpc/server": "^10.43.3",
+    "express": "^4.18.2",
+    "express-serve-static-core": "^0.1.1",
+    "qs": "^6.11.2",
+    "superjson": "^2.2.1"
+  },
+  "bugs": {
+    "url": "https://github.com/billyjacoby/backend-trpc-api-boilerplate/issues"
+  },
+  "homepage": "https://github.com/billyjacoby/backend-trpc-api-boilerplate#readme",
+  "description": "tRPC package export example"
+}
